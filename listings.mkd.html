@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitolia</title>
+    <link rel="Website Icon" type="png"
+    href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+<!--Header-->
+<header class="header">
+    <nav class="navbar nav1">
+    <section class="flex">
+
+        <a href="home.mkd.html" class="logo"><i class="fas fa-house"></i>
+            Capitolia
+        </a>
+        <ul>
+            <li class="language">
+                <a href="" language="macedonian"><img src="images/mac-language.png"></a>
+                <a href="home.html" language="english"><img src="images/eng-language.png"></a>
+            </li>
+        </ul>
+    </section>
+    </nav>
+
+    <nav class="navbar nav2">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+<div class="menu">
+    <ul>
+        <li><a href="">Купи<i class="fas fa-angle-down"></i></a>
+    <ul>
+    <li><a href="house.mkd.html">Куќа</a></li>
+    <li><a href="flat.mkd.html">Стан</a></li>
+    <li><a href="store.mkd.html">Деловен Простор</a></li>
+    <li><a href="plac.mkd.html">Плац</a></li>
+    </ul>
+    </li>
+    <li><a href="">Изнајми<i class="fas fa-angle-down"></i></a>
+        <ul>
+        <li><a href="house-rent.mkd.html">Куќа</a></li>
+        <li><a href="flat-rent.mkd.html">Стан</a></li>
+        <li><a href="store-rent.mkd.html">Деловен Простор</a></li>
+        <li><a href="plac-rent.mkd.html">Плац</a></li>
+        </ul>
+        </li>
+            <li><a href="">Помош<i class="fas fa-angle-down"></i></a>
+                <ul>
+                <li><a href="about.mkd.html">За Нас</a></li>
+                <li><a href="contact.mkd.html">Контакт</a></li>
+                </ul>
+                </li>
+    </section>
+    </nav>
+</header>
+<!--Header-->
+
+<section class="filters" style="padding-bottom: 0;">
+    <form action="" method="post">
+        <div id="close-filter"><i class="fas fa-times"></i></div>
+        <h3>Филтрирајте го пребарувањето</h3>
+
+        <div class="flex">
+            <div class="box">
+                <p>Location<span>*</span></p>
+            <select name="type" class="input" required>
+                <option value="Skopje">Скопје</option>
+                <option value="Ohrid">Охрид</option>
+                </select>
+            </div>
+            <div class="box">
+                <p>By price<span>*</span></p>
+                <select name="minimum" class="input" required>
+                    <option value="Low to High">По Цена Растечки</option>
+                    <option value="High to Low">По Цена Опагачки</option>
+                </select>
+            </div>
+        </div> 
+    <input type="submit" value="Пребарај Имот" name="search" class="btn">
+    </form>
+
+</section>
+
+<!--Listings Section-->
+
+<section class="listings">
+
+    <h1 class="heading">Сите Имоти</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="admin">
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span>
+                </p>
+                <p class="type"><span>Куќа</span><span>Се Продава</span></p>
+                <form action="" method="post" class="save">
+                </form>
+                <image src="images/Skopje/DM/1.png" alt="">
+            </div>
+            <h3 class="name">Прекрасен Стан Во Дебар Маало</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>
+                Дебар Маало</span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>1</span></p>
+                    <p><i class="fas fa-bath"></i><span>1</span></p>
+                    <p><i class="fas fa-maximize"></i><span>96+10м²</span></p>
+                    <p><i class="fas fa-euro"></i><span>170000</span></p>
+                </div>
+            <a href="view_property.mkd.html" class="btn">Погледни Го Имотот</a>
+        </div>
+
+    
+
+</section>
+
+<!--Listings Section-->
+
+
+
+
+
+<footer class="footer">
+    <section class="flex">
+
+        <div class="box">
+            <a href="tel:1234567534"><i class="fas_fa-phone"></i><span></span>076 200 776</a>
+            <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i><span>
+                info@capitolia.mk</span></a>
+            <a href=#><i class="fas fa-map-marker-alt"></i><span>
+            Skopje, Macedonia, 1000</span></a>
+        </div>
+
+        <div class="box">
+            <a href="home.mkd.html"><span>Capitolia</span></a>
+            <a href="about.mkd.html"><span>За Нас</span></a>
+            <a href="contact.mkd.html"><span>Контакт</span></a>
+            <a href="listings.mkd.html"><span>Сите Имоти</span></a>
+        </div>
+
+        <div class="box">
+            <a href="https://www.facebook.com/capitoliahillsk"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/capitoliahill/"><span>instagram</span><i class="fab fa-instagram"></i></a>
+        </div>
+
+    </section>
+
+<div class="credit">&copy; copyright @ 2023 by <span> Zapp Design </span>
+     all rights are reserved </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
